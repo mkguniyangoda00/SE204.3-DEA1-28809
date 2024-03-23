@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Adding two numbers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <center>
+        <h1><font color="green">Perform Arithmetic Operations</font></h1>
+        <form name="ArithmeticOperations" action="BasicAlgorithmOperation" method="post">
+            <table>
+                <tr>
+                    <td> Input First Number :</td>
+                    <td><input type="text" name="num1" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Input Second Number:</td>
+                    <td><input type="text" name="num2" value="" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add" name="operation" /></td>
+                    <td><input type="submit" value="Subtract" name="operation" /></td>
+                    <td><input type="submit" value="Multiply" name="operation" /></td>
+                    <td><input type="submit" value="Divide" name="operation" /></td>
+                </tr>
+                <tr>
+                    <td>Result:</td>
+                    <td><input type="text" name="result" value="${result}" readonly /></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    </body>
+</html>
